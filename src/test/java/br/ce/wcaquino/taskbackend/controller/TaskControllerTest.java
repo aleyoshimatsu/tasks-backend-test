@@ -14,7 +14,7 @@ public class TaskControllerTest {
 
     @BeforeClass
     public static void setup() {
-        baseURI = "http://localhost:8081/tasks-backend";
+        baseURI = "http://tomcat:8080/tasks-backend";
     }
 
     @Test
